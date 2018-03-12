@@ -1,0 +1,53 @@
+body {
+  background: white;
+  color: black;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+  text-align:center;
+  color: red;
+  font-size:3em;
+}
+
+h2{
+  color:red;
+}
+
+.interview{
+  max-width:650px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.toc{
+  position:fixed;
+  top: 1em;
+  right: 1em;
+}
+
+.toc ul{
+  list-style-type:none;
+  padding:0;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.toc:hover .dropdown {
+    display: block;
+}
+
+a{
+  color: red;
+}
